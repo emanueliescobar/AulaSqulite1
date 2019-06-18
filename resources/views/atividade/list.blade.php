@@ -1,4 +1,8 @@
+@extends('layouts.app')
+@section('content')
+
 <h1>Lista de Atividades</h1>
+
 <hr>
 @foreach($atividades as $a)
 	<hr>
@@ -30,3 +34,4 @@
     </div>
 	<hr>
 @endif
+@endsection

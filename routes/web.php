@@ -32,3 +32,6 @@ Route::put('/messages/{id}', 'messageController@update');
 //php artisan key:generate
 //composer dump-autoload
 //php artisan migrate --seed
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
